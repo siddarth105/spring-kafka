@@ -32,11 +32,6 @@
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-tomcat</artifactId>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
@@ -46,31 +41,6 @@
 	        <artifactId>spring-kafka</artifactId>
 	        <version>2.1.1.RELEASE</version>
     	</dependency>
-		
-	     <!--<dependency>
-	        <groupId>org.apache.kafka</groupId>
-		    <artifactId>kafka_2.12</artifactId>
-		    <version>1.0.0</version>
-	        <scope>compile</scope>
-	        <exclusions>
-	          <exclusion>
-	            <artifactId>jmxri</artifactId>
-	            <groupId>com.sun.jmx</groupId>
-	          </exclusion>
-	          <exclusion>
-	            <artifactId>jms</artifactId>
-	            <groupId>javax.jms</groupId>
-	          </exclusion>
-	          <exclusion>
-	            <artifactId>jmxtools</artifactId>
-	            <groupId>com.sun.jdmk</groupId>
-	            </exclusion>
-	          <exclusion>
-	          	<groupId>org.slf4j</groupId>
-	          	<artifactId>slf4j-log4j12</artifactId>
-	          </exclusion>
-	        </exclusions>
-    	</dependency>-->
 	</dependencies>
 
 	<build>
